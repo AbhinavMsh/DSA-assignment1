@@ -1,7 +1,7 @@
 // reverse a number
 #include <stdio.h>
 int main(){
-    int a,ld;
+    int a,ld=1;
     printf("Enter number:");
     scanf("%d",&a);
     
