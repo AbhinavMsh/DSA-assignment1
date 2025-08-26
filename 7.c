@@ -9,16 +9,14 @@ int main(){
         printf("%d",n);
     }
     else{
-        printf("%d",ld2);
-        printf("%d",ld);
+        printf("%d ",ld2);
+        printf("%d ",ld);
         for(int i = 2;i < n ; i++){
             temp = ld;
             ld = ld+ld2;
             ld2 = temp;
-            printf("%d",ld);
-            
+            printf("%d ",ld);  
         }
     }
     return 0;
-
 }
