@@ -1,5 +1,4 @@
 // Gcd Of 2 num
-#include <math.h>
 #include <stdio.h>
 int main(){
     int num1,num2;
