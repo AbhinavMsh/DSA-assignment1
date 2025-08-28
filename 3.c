@@ -10,9 +10,6 @@ int main(){
     for (; a > 0; a--) {
         fact = fact * a;
     }
-
     printf("%d",fact);
     return 0;
-
-
 }
